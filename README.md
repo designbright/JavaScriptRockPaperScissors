@@ -26,18 +26,38 @@ if (condition ) {
 * There is no semi colon at the end of a conditional statement
 
 
-
 ## Task
 Assuming the computer always throws paper, write the conditional statement that will console log out one of the following messages based on what you change the me value too.
 
-Looks like a tie!
-I win!
-Computer wins!
+* Looks like a tie!
+* I win!
+* Computer wins!
 
 Keep in mind that:
 
-Rock beats scissors
-Scissors beat paper
-Paper beats rock
+* Rock beats scissors
+* Scissors beat paper
+* Paper beats rock
 
 ## Project Design Process
+
+Two players:
+Computer
+Player
+
+### Variables, Outcomes, and Combinations
+
+1. Define game variables
+2. Define possible outcomes of game
+3. Write conditional statement
+
+rock > scissors
+scissors > paper
+paper > rock
+
+
+let computerWins = alert('Computer wins!');
+let playerWins = alert('Player wins!');
+let tie = alert('Its a tie!);
+
+if ()
