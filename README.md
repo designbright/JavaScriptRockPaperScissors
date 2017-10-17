@@ -29,7 +29,19 @@ if (condition ) {
 
 The **Else/If** Clause
 
+* If the first condition is false, then a second condition is run
+* If neither condition is true, you need to run a different code block using an ‘else’ statement after the ‘else if’
+* You can have unlimited number of ‘else if’ clauses
 
+**Else/If Syntax**
+
+  if ( ) {
+
+	} else if ( ) {
+
+	} else {
+	 *Will only run if  BOTH previous conditions are FALSE*
+	}
 
 ## Task
 Assuming the computer always throws paper, write the conditional statement that will console log out one of the following messages based on what you change the me value too.
