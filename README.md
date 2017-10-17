@@ -25,6 +25,11 @@ if (condition ) {
 * { } create a ‘code block’
 * There is no semi colon at the end of a conditional statement
 
+### Programming with Multiple Outcomes
+
+The **Else/If** Clause
+
+
 
 ## Task
 Assuming the computer always throws paper, write the conditional statement that will console log out one of the following messages based on what you change the me value too.
@@ -48,16 +53,28 @@ Player
 ### Variables, Outcomes, and Combinations
 
 1. Define game variables
+
+let computer = 'computer';
+let player = 'player';
+
+let rock = 'rock';
+let scissors = 'scissors';
+let paper = 'paper';
+
+    * let computerWins = alert('Computer wins!');
+    * let playerWins = alert('Player wins!');
+    * let tie = alert('Its a tie!);
+
 2. Define possible outcomes of game
+    * rock > scissors
+    * scissors > paper
+    * paper > rock
+
 3. Write conditional statement
 
-rock > scissors
-scissors > paper
-paper > rock
-
-
-let computerWins = alert('Computer wins!');
-let playerWins = alert('Player wins!');
-let tie = alert('Its a tie!);
-
-if ()
+    if (computer === paper) {
+      alert('Computer Wins!');
+    else{
+      alert('Player wins!');
+    }
+    }
