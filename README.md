@@ -66,27 +66,8 @@ Player
 
 1. Define game variables
 
-let computer = 'computer';
-let player = 'player';
-
-let rock = 'rock';
-let scissors = 'scissors';
-let paper = 'paper';
-
-    * let computerWins = alert('Computer wins!');
-    * let playerWins = alert('Player wins!');
-    * let tie = alert('Its a tie!);
+  * let computer = 'computer';
+  * let player = 'player';
 
 2. Define possible outcomes of game
-    * rock > scissors
-    * scissors > paper
-    * paper > rock
-
 3. Write conditional statement
-
-    if (computer === paper) {
-      alert('Computer Wins!');
-    else{
-      alert('Player wins!');
-    }
-    }
